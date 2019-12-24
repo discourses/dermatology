@@ -22,7 +22,6 @@ The data herein is courtesy of the International Skin Imaging Collaboration (ISI
 |[ISIC_2019_Training_GroundTruth.csv](https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Training_GroundTruth.csv)|25,331 entries of gold standard lesion diagnoses|1.23MB|
 
 <br>
-<br>
 
 The data set is stored here for availability purposes.  The images are either the same as those hosted by the [ISIC Archive API](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/apiDocumentation) or  down-sampled versions.  The API is documented at [ISIC Archive API Documentation](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/apiDocumentation); [sample API script](https://github.com/greyhypotheses/derma/blob/master/src/data/archive.py).  The data set outlined below might be used if the ground truths are released.
 
