@@ -7,7 +7,9 @@ This is a image data repository.  It complements the
 
 repositories.  The [augmentation repository](https://github.com/greyhypotheses/augmentation) augments the images of this repository, whilst the [derma repository](https://github.com/greyhypotheses/derma) is a repository of models that use the augmentations.
 
-### The Data
+<br>
+
+## The Data
 
 The data herein is courtesy of the International Skin Imaging Collaboration (ISIC).  It is a set of dermoscopic images of skin lesions: specifically, the images of the [ISIC 2019 Challenge](https://challenge2019.isic-archive.com/), i.e.,
 
