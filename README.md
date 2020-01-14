@@ -1,5 +1,13 @@
 # Dermatology
 
+* [The Original Data](#the-original-data)
+* [Augmentations](#augmentations)
+* [Preliminary Analysis of Metadata](#preliminary-analysis-of-metadata)
+* [Copyright and Attribution](#copyright-and-attribution)
+
+<br>
+<br>
+
 This is a image data repository.  It complements the
 
 * [augmentation](https://github.com/greyhypotheses/augmentation)
