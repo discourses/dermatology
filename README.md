@@ -51,7 +51,7 @@ Augmented versions of the images in ISIC_2019_Training_Input.zip are created via
 * ensures that all images are of the same size; the size is determined by the models
 * creates rotated forms of most images
 
-The augmentations are stored in [augmentations/images](./augmentation/images).  The images are zipped, and heir metadata is summarised in [augmentations/inventory.csv](./augmentations/inventory.csv)
+The augmentations are stored in [augmentations/images](./augmentations/images).  The images are zipped, and heir metadata is summarised in [augmentations/inventory.csv](./augmentations/inventory.csv)
 
 <br>
 <br>
