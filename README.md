@@ -9,9 +9,9 @@ repositories.  The [augmentation repository](https://github.com/greyhypotheses/a
 
 <br>
 
-## The Data
+## The Original Data
 
-The data herein is courtesy of the International Skin Imaging Collaboration (ISIC).  It is a set of dermoscopic images of skin lesions: specifically, the images of the [ISIC 2019 Challenge](https://challenge2019.isic-archive.com/), i.e.,
+The data is courtesy of the International Skin Imaging Collaboration (ISIC).  It is a set of dermoscopic images of skin lesions: specifically, the images of the [ISIC 2019 Challenge](https://challenge2019.isic-archive.com/), i.e.,
 
 <br>
 
@@ -23,22 +23,40 @@ The data herein is courtesy of the International Skin Imaging Collaboration (ISI
 
 <br>
 
-The data set is stored here for availability purposes.  The images are either the same as those hosted by the [ISIC Archive API](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/apiDocumentation) or  down-sampled versions.  The API is documented at [ISIC Archive API Documentation](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/apiDocumentation); [sample API script](https://github.com/greyhypotheses/derma/blob/master/src/data/archive.py).  The data set outlined below might be used if the ground truths are released.
+The images are either the same as those hosted by the [ISIC Archive API](https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/apiDocumentation) or  down-sampled versions.  The data set outlined below might be used if the ground truths are released.
 
 * [ISIC_2019_Test_Input.zip](https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Test_Input.zip): 8,238 JPEG images of skin lesions
 * [ISIC_2019_Test_Metadata.csv](https://s3.amazonaws.com/isic-challenge-2019/ISIC_2019_Test_Metadata.csv): 8,238 metadata entries of age, sex, and general anatomic site
 
 <br>
-<br>
 
-### Preliminary Analysis of Metadata
+To ensure availability, the contents of ISIC_2019_Training_Input.zip are in the directory [./data/images](data/images), whilst copies of the ISIC_2019_Training_Metadata.csv & ISIC_2019_Training_GroundTruth.csv files are stored in [data](./data).  
 
-A preliminary analysis of the metadata is hosted in the notebook [preliminary.ipynb](https://nbviewer.jupyter.org/github/greyhypotheses/derma/blob/master/notebooks/preliminary.ipynb).
 
 <br>
 <br>
 
-### Copyright and Attribution
+
+## Augmentations
+
+Augmented versions of the images in ISIC_2019_Training_Input.zip are created via the [augmentation package](https://github.com/greyhypotheses/augmentation).  The package
+
+* ensures that all images are of the same size; the size is determined by the models
+* creates rotated forms of most images
+
+
+<br>
+<br>
+
+
+## Preliminary Analysis of Metadata
+
+A preliminary analysis of the metadata is hosted in the notebook [preliminary.ipynb](https://nbviewer.jupyter.org/github/greyhypotheses/augmentation/blob/develop/notebooks/preliminary.ipynb).
+
+<br>
+<br>
+
+## Copyright and Attribution
 
 `Details: https://challenge2019.isic-archive.com/data.html`
 
