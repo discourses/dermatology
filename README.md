@@ -37,7 +37,7 @@ The images are either the same as those hosted by the [ISIC Archive API](https:/
 
 <br>
 
-To ensure availability, the contents of ISIC_2019_Training_Input.zip are in the directory [data/images/](./data/images/), whilst copies of the ISIC_2019_Training_Metadata.csv & ISIC_2019_Training_GroundTruth.csv files are stored in [data](./data/).  
+To ensure availability, the contents of ISIC_2019_Training_Input.zip are in the directory [data/images](./data/images), whilst copies of the ISIC_2019_Training_Metadata.csv & ISIC_2019_Training_GroundTruth.csv files are stored in [data](./data).  
 
 
 <br>
@@ -51,7 +51,7 @@ Augmented versions of the images in ISIC_2019_Training_Input.zip are created via
 * ensures that all images are of the same size; the size is determined by the models
 * creates rotated forms of most images
 
-The augmentations are stored in [augmentations/images/](./augmentation/images).  The images are zipped, and heir metadata is summarised in [augmentations/inventory.csv](./augmentations/inventory.csv)
+The augmentations are stored in [augmentations/images](./augmentation/images).  The images are zipped, and heir metadata is summarised in [augmentations/inventory.csv](./augmentations/inventory.csv)
 
 <br>
 <br>
