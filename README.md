@@ -2,7 +2,6 @@
 
 * [The Original Data](#the-original-data)
 * [Augmentations](#augmentations)
-* [Preliminary Analysis of Metadata](#preliminary-analysis-of-metadata)
 * [Copyright and Attribution](#copyright-and-attribution)
 
 <br>
@@ -56,13 +55,6 @@ Augmented versions of the images in ISIC_2019_Training_Input.zip are created via
 <br>
 <br>
 
-
-## Preliminary Analysis of Metadata
-
-A preliminary analysis of the metadata is hosted in the notebook [preliminary.ipynb](https://nbviewer.jupyter.org/github/greyhypotheses/augmentation/blob/develop/notebooks/preliminary.ipynb).
-
-<br>
-<br>
 
 ## Copyright and Attribution
 
